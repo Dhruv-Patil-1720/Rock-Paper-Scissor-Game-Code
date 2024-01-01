@@ -1,8 +1,8 @@
 import random
 user_choices = ["rock", "paper", "scissors"]
 
-print("Welcome to Rock, Paper, Scissors Game!")
-print("Rules: Rock beats Scissors, Scissors beats Paper, and Paper beats Rock.")
+print("Welcome to Rock, Paper, Scissors Game !!!!")
+print("Rules:  Remember Rock beats Scissors, Scissors beats Paper, and Paper beats Rock.")
 
 # Initialize Scores
 player_score = 0
@@ -22,9 +22,9 @@ while True:
 
     # If the Player chooses to Exit
     if user_input == "4":
-        print("\nFinal Scores:")
-        print(f"Player: {player_score}  Computer: {computer_score}")
-        print("Thank You for playing. Goodbye!")
+        print("\n Final Scores: " )
+        print(f" Player: {player_score}  Computer: {computer_score} ")
+        print(" Thank You for playing. Goodbye!! ")
         break
 
     # If the Player Chose Rock, Paper, or Scissors
@@ -47,9 +47,9 @@ while True:
             computer_score += 1
 
         # Results
-        print(f"\nYour choice: {user_choices[int(user_input) - 1]}")
-        print(f"Computer's choice: {computer_choice}")
-        print(f"Result: {result}")
+        print(f"\n Your choice: {user_choices[int(user_input) - 1]} ")
+        print(f" Computer's choice: {computer_choice} ")
+        print(f" Result: {result} ")
 
     # Current Scores
     print(f"\nCurrent Scores - Player: {player_score}  Computer: {computer_score}")
